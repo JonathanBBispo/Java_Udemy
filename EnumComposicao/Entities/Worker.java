@@ -18,6 +18,7 @@ public class Worker {
         this.name = name;
         this.level = level;
         this.baseSalary = baseSalary;
+        this.department = department;
     }
 
     public void addContract(HourContract contract){
