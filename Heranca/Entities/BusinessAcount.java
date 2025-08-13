@@ -6,8 +6,8 @@ public class BusinessAcount extends Account{
     public BusinessAcount(){
         super();
     }
-    public BusinessAcount(int number, String holder, double loanLimit){
-        super(number, holder, loanLimit);
+    public BusinessAcount(int number, String holder, double balance,double loanLimit){
+        super(number, holder, balance);
         this.loanLimit = loanLimit;
     }
 
