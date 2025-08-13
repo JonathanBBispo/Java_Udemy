@@ -1,4 +1,8 @@
-package Heranca.Entities;
+package Heranca;
+
+import Heranca.Entities.Account;
+import Heranca.Entities.BusinessAcount;
+import Heranca.Entities.SavingsAccount;
 
 public class Aul02 {
     public static void main(String[] args) {
