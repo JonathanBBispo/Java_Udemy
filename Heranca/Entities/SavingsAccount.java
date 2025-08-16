@@ -1,6 +1,6 @@
 package Heranca.Entities;
 
-public class SavingsAccount extends Account{
+public final class SavingsAccount extends Account{ //final faz com que a classe não seja herdada
     private double interestRate;
 
     public SavingsAccount(){
@@ -17,7 +17,7 @@ public class SavingsAccount extends Account{
     }
 
     @Override
-    public void withdraw(double amount){
+    public final void withdraw(double amount){ //final faz com que o método não possa ser sobreposto
         balance -= amount;
     }
 
